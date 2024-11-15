@@ -71,15 +71,18 @@ Le script effectuera les actions suivantes :
 
 ## **1. Utiliser le script**
 
-Naviguer dans le répertoire contenant le fichier : Si le script est dans un répertoire spécifique, ils doivent se rendre dans ce répertoire avec la commande cd :
+Étapes d'Exécution :
 
-    cd chemin/vers/le/script
+Placer les scripts dans le répertoire de votre projet.
 
-Rendre le script exécutable (ils doivent le faire une seule fois) :
-
-    chmod +x setup_git.sh
-
-Exécuter le script : Ensuite, ils peuvent exécuter le script avec la commande suivante :
-
+Pour récupérer les modifications :
+ 
     ./setup_git.sh
 
+Pour pousser les modifications :
+
+    ./push_git.sh
+
+Pour récupérer les modifications :
+
+    ./pull_git.sh
