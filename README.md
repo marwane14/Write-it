@@ -68,6 +68,13 @@ Le script effectuera les actions suivantes :
     Effectuera un commit avec un message personnalisé fourni par l'utilisateur.
     Poussera les modifications vers la branche distante.
     Synchronisera le projet avec GitHub (télécharge les mises à jour et fusionne si nécessaire).
+push_git.sh :
+
+    Ce script ajoute tous les fichiers modifiés, demande un message pour le commit et pousse les changements vers la branche distante spécifiée.
+
+pull_git.sh :
+
+    Ce script permet de récupérer les changements à partir de la branche distante et de les fusionner avec la branche locale spécifiée.
 
 ## **1. Utiliser le script**
 
