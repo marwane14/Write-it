@@ -1,8 +1,8 @@
 Initialisation du projet
 
-    Connecter un projet local à un dépôt GitHub :
+Connecter un projet local à un dépôt GitHub :
 
-git remote add origin [URL]
+    git remote add origin [URL]
 
     Cloner un projet depuis GitHub :
 
