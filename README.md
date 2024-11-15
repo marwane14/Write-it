@@ -60,6 +60,15 @@ Télécharger et fusionner directement les modifications distantes :
 
 Pour simplifier le processus, vous pouvez exécuter un script qui configure automatiquement Git pour vous.
 
+Le script effectuera les actions suivantes :
+
+    Clonera le dépôt GitHub (si nécessaire).
+    Passera sur la branche spécifiée par l'utilisateur.
+    Ajoutera tous les fichiers modifiés pour les suivre.
+    Effectuera un commit avec un message personnalisé fourni par l'utilisateur.
+    Poussera les modifications vers la branche distante.
+    Synchronisera le projet avec GitHub (télécharge les mises à jour et fusionne si nécessaire).
+
 ## **1. Utiliser le script**
 
 Naviguer dans le répertoire contenant le fichier : Si le script est dans un répertoire spécifique, ils doivent se rendre dans ce répertoire avec la commande cd :
