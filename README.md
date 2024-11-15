@@ -1,17 +1,3 @@
-# Guide Git - Automatisation des commandes
-
-Pour simplifier le processus, vous pouvez exécuter un script qui configure automatiquement Git pour vous.
-
----
-
-## **1. Utiliser le script**
-Téléchargez ou clonez ce projet, puis exécutez simplement le script suivant dans votre terminal :
-
-```bash
-bash setup_git.sh
-```bash
-
-
 Initialisation du projet
 
     Connecter un projet local à un dépôt GitHub :
@@ -79,3 +65,16 @@ git commit -m "Votre message ici"
     Pousser les modifications :
 
 git push origin [nom_de_la_branche]
+
+# Guide Git - Automatisation des commandes
+
+Pour simplifier le processus, vous pouvez exécuter un script qui configure automatiquement Git pour vous.
+
+---
+
+## **1. Utiliser le script**
+Téléchargez ou clonez ce projet, puis exécutez simplement le script suivant dans votre terminal :
+
+```bash
+bash setup_git.sh
+```bash
