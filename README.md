@@ -2,7 +2,7 @@
 
 Naviguer dans le répertoire contenant le fichier : Si le script est dans un répertoire spécifique, se rendre dans ce répertoire avec la commande cd :
 
-    cd chemin/vers/le/script
+    cd chemin/versprojet
 
 Connecter un projet local à un dépôt GitHub :
 
