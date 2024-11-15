@@ -2,64 +2,57 @@ using UnityEngine;
 using UnityEngine.EventSystems;
 using UnityEngine.UI;
 
-public class ButtonEffects : MonoBehaviour, IPointerEnterHandler, IPointerExitHandler, IPointerDownHandler, IPointerUpHandler
+public class ButtonHoverEffect : MonoBehaviour, IPointerEnterHandler, IPointerExitHandler
 {
-    private RectTransform rectTransform;
+    public Color hoverColor = Color.cyan; // Couleur survolée.
+    public float hoverScale = 1.1f; // Facteur d’agrandissement.
+    public float transitionSpeed = 10f; // Vitesse d'animation.
+
+    private Color originalColor;
     private Vector3 originalScale;
-    public Color hoverColor = Color.yellow; // Couleur de lumière pour le survol
-    public Color defaultColor = Color.white; // Couleur par défaut
-    public Image buttonImage; // Image du bouton
-    public float pressScale = 0.9f; // Taille réduite lors de l'enfoncement
-    public float hoverScale = 1.1f; // Taille augmentée au survol
+    private Image buttonImage;
+
+    private bool isHovering = false;
 
     void Start()
     {
-        // Initialisation
-        rectTransform = GetComponent<RectTransform>();
-        originalScale = rectTransform.localScale;
-
-        if (buttonImage == null)
-        {
-            buttonImage = GetComponent<Image>();
-        }
-
-        // Assurez-vous qu'une couleur par défaut est appliquée
+        // Récupérer l’image du bouton et ses propriétés initiales.
+        buttonImage = GetComponent<Image>();
         if (buttonImage != null)
         {
-            buttonImage.color = defaultColor;
+            originalColor = buttonImage.color;
         }
+        originalScale = transform.localScale;
     }
 
-    // Survol avec la souris
     public void OnPointerEnter(PointerEventData eventData)
     {
-        if (buttonImage != null)
-        {
-            buttonImage.color = hoverColor; // Change la couleur
-        }
-        rectTransform.localScale = originalScale * hoverScale; // Agrandit le bouton
+        isHovering = true;
     }
 
-    // Sortie du survol
     public void OnPointerExit(PointerEventData eventData)
     {
-        if (buttonImage != null)
+        isHovering = false;
+    }
+
+    void Update()
+    {
+        // Transition fluide vers l'état survolé.
+        if (isHovering)
         {
-            buttonImage.color = defaultColor; // Restaure la couleur par défaut
+            // Changer la couleur et agrandir.
+            if (buttonImage != null)
+                buttonImage.color = Color.Lerp(buttonImage.color, hoverColor, Time.deltaTime * transitionSpeed);
+
+            transform.localScale = Vector3.Lerp(transform.localScale, originalScale * hoverScale, Time.deltaTime * transitionSpeed);
         }
-        rectTransform.localScale = originalScale; // Restaure la taille d'origine
-    }
+        else
+        {
+            // Revenir à la couleur et taille d’origine.
+            if (buttonImage != null)
+                buttonImage.color = Color.Lerp(buttonImage.color, originalColor, Time.deltaTime * transitionSpeed);
 
-    // Lorsqu'on clique sur le bouton
-    public void OnPointerDown(PointerEventData eventData)
-    {
-        rectTransform.localScale = originalScale * pressScale; // Réduit la taille pour simuler l'enfoncement
-    }
-
-    // Lorsqu'on relâche le bouton
-    public void OnPointerUp(PointerEventData eventData)
-    {
-        rectTransform.localScale = originalScale * hoverScale; // Revient à la taille de survol
+            transform.localScale = Vector3.Lerp(transform.localScale, originalScale, Time.deltaTime * transitionSpeed);
+        }
     }
 }
-
