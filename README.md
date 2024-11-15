@@ -9,6 +9,8 @@ Téléchargez ou clonez ce projet, puis exécutez simplement le script suivant d
 
 ```bash
 bash setup_git.sh
+```bash
+
 
 Initialisation du projet
 
