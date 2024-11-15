@@ -4,67 +4,67 @@ Connecter un projet local à un dépôt GitHub :
 
     git remote add origin [URL]
 
-    Cloner un projet depuis GitHub :
+Cloner un projet depuis GitHub :
 
-git clone [URL]
+    git clone [URL]
 
 Gestion des branches
 
-    Créer et passer sur une branche spécifique :
+Créer et passer sur une branche spécifique :
 
-git checkout -b [nom_de_la_branche]
+    git checkout -b [nom_de_la_branche]
 
-    Vérifier les branches locales et distantes :
+Vérifier les branches locales et distantes :
 
-git branch -a
+    git branch -a
 
-    Passer sur une branche existante :
+Passer sur une branche existante :
 
-git checkout [nom_de_la_branche]
+    git checkout [nom_de_la_branche]
 
 Suivi des fichiers
 
-    Ajouter tous les fichiers pour le suivi :
+Ajouter tous les fichiers pour le suivi :
 
-git add .
+    git add .
 
-    Enregistrer les modifications avec un message :
+Enregistrer les modifications avec un message :
 
-git commit -m "Votre message ici"
+    git commit -m "Votre message ici"
 
 Envoyer les modifications sur GitHub
 
-    Pousser les changements locaux vers une branche distante et définir l'upstream :
+Pousser les changements locaux vers une branche distante et définir l'upstream :
 
-git push -u origin [nom_de_la_branche]
+    git push -u origin [nom_de_la_branche]
 
-    Pousser les modifications sans définir l'upstream :
+Pousser les modifications sans définir l'upstream :
 
-git push origin [nom_de_la_branche]
+    git push origin [nom_de_la_branche]
 
 Synchronisation avec GitHub
 
-    Télécharger les mises à jour sans les fusionner :
+Télécharger les mises à jour sans les fusionner :
 
-git fetch
+    git fetch
 
-    Télécharger et fusionner directement les modifications distantes :
+Télécharger et fusionner directement les modifications distantes :
 
-git pull origin [nom_de_la_branche]
+    git pull origin [nom_de_la_branche]
 
 Récapitulatif pour enregistrer et pousser un projet
 
-    Ajouter tous les fichiers :
+Ajouter tous les fichiers :
 
-git add .
+    git add .
 
-    Faire un commit avec un message :
+Faire un commit avec un message :
 
-git commit -m "Votre message ici"
+    git commit -m "Votre message ici"
 
-    Pousser les modifications :
+Pousser les modifications :
 
-git push origin [nom_de_la_branche]
+    git push origin [nom_de_la_branche]
 
 # Guide Git - Automatisation des commandes
 
