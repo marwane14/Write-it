@@ -70,11 +70,21 @@ Le script effectuera les actions suivantes :
     Synchronisera le projet avec GitHub (télécharge les mises à jour et fusionne si nécessaire).
 push_git.sh :
 
-    Ce script ajoute tous les fichiers modifiés, demande un message pour le commit et pousse les changements vers la branche distante spécifiée.
+    Ce script ajoute tous les fichiers modifiés, demande un message pour le commit
+    et pousse les changements vers la branche distante spécifiée.
 
 pull_git.sh :
 
-    Ce script permet de récupérer les changements à partir de la branche distante et de les fusionner avec la branche locale spécifiée.
+    Ce script permet de récupérer les changements à partir de la branche distante 
+    et de les fusionner avec la branche locale spécifiée.
+    
+Explication du Script :
+
+    merge_git.sh :
+        Ce script permet de fusionner une branche distante spécifiée dans la branche locale.
+        Il vérifie si la branche distante est bien synchronisée avec la branche locale avant de tenter la fusion.
+        Si la fusion réussit sans conflit, le script informe l'utilisateur et propose de pousser les modifications.
+        Si des conflits surviennent, il avertit l'utilisateur que les conflits doivent être résolus manuellement.
 
 ## **1. Utiliser le script**
 
@@ -93,3 +103,7 @@ Pour pousser les modifications :
 Pour récupérer les modifications :
 
     ./pull_git.sh
+    
+Exécuter le script :
+
+    ./merge_git.sh
