@@ -62,5 +62,5 @@ Pour simplifier le processus, vous pouvez exécuter un script qui configure auto
 Téléchargez ou clonez ce projet, puis exécutez simplement le script suivant dans votre terminal :
 
 ```bash
-bash setup_git.sh
-```bash
+bash setup_git.sh (EN COUR)
+
