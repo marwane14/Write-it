@@ -1,5 +1,9 @@
 ## Initialisation du projet
 
+Naviguer dans le répertoire contenant le fichier : Si le script est dans un répertoire spécifique, se rendre dans ce répertoire avec la commande cd :
+
+    cd chemin/vers/le/script
+
 Connecter un projet local à un dépôt GitHub :
 
     git remote add origin [URL]
@@ -56,11 +60,17 @@ Télécharger et fusionner directement les modifications distantes :
 
 Pour simplifier le processus, vous pouvez exécuter un script qui configure automatiquement Git pour vous.
 
----
-
 ## **1. Utiliser le script**
-Téléchargez ou clonez ce projet, puis exécutez simplement le script suivant dans votre terminal :
 
-```bash
-bash setup_git.sh (EN COUR)
+Naviguer dans le répertoire contenant le fichier : Si le script est dans un répertoire spécifique, ils doivent se rendre dans ce répertoire avec la commande cd :
+
+    cd chemin/vers/le/script
+
+Rendre le script exécutable (ils doivent le faire une seule fois) :
+
+    chmod +x setup_git.sh
+
+Exécuter le script : Ensuite, ils peuvent exécuter le script avec la commande suivante :
+
+    ./setup_git.sh
 
