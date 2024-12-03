@@ -80,4 +80,8 @@ public class MainMenu : MonoBehaviour
         EcranTitre.SetActive(true);
         Menu.SetActive(false);
     }
+    public void LoadEntrainementScene()
+    {
+        SceneManager.LoadScene("TestMPM");
+    }
 }
