@@ -8,84 +8,51 @@ public class TypingSpeedTestTMP : MonoBehaviour
 {
     [Header("UI Panels")]
     public GameObject menuUI;         // Menu principal
-    public GameObject typingTestUI;    // UI pour le test
-    public GameObject resultatUI;      // UI pour afficher les résultats
+    public GameObject typingTestUI;   // UI pour le test
+    public GameObject resultatUI;     // UI pour afficher les résultats
+    public Slider durationSlider;     // Slider pour sélectionner la durée
+    public TMP_Text durationText;     // Affiche la durée sélectionnée
 
-    [Header("UI Elements")]
-    public TMP_Text phraseText;        // Affiche le mot ou la phrase à taper
+    [Header("Test Elements")]
+    public TMP_Text phraseText;       // Affiche le mot à taper
+    public TMP_Text timeRemainingText; // Affiche le temps restant
     public TMP_InputField userInput;  // Champ de saisie de l'utilisateur
     public TMP_Text mpmText;          // Affiche les mots par minute (MPM)
-    public TMP_Text timerText;        // Affiche le temps restant
 
     [Header("Result Elements")]
     public TMP_Text finalMpmText;     // Affiche le MPM final
     public TMP_Text typedWordsText;   // Affiche les mots tapés
     public TMP_Text accuracyText;     // Affiche la précision
-    public Button restartButton;      // Bouton pour recommencer le test
+    public UnityEngine.UI.Button restartButton;  // Bouton pour recommencer le test
 
     [Header("Menu Buttons")]
-    public Button syllabeButton;      // Bouton pour sélectionner le mode syllabe
-    public Button motButton;          // Bouton pour sélectionner le mode mot
-    public Button phraseButton;       // Bouton pour sélectionner le mode phrase
-    public Button duration10sButton;  // Bouton pour sélectionner 10 secondes
-    public Button duration20sButton;  // Bouton pour sélectionner 20 secondes
-    public Button duration30sButton;  // Bouton pour sélectionner 30 secondes
+    public UnityEngine.UI.Button motButton;      // Bouton pour sélectionner le mode mot
 
-    public float selectedDuration = 0f;  // Durée sélectionnée pour le test
+    public int selectedDuration = 30;  // Durée par défaut pour le test
 
-    private List<string[]> syllablesList = new List<string[]>();  // Liste des syllabes
-    private List<string> wordsList = new List<string>();          // Liste des mots
-    private List<string> phrasesList = new List<string>();        // Liste des phrases
-
+    private List<string> wordsList = new List<string>(); // Liste des mots
     private int wordsTypedCorrectly = 0;   // Nombre de mots tapés correctement
-    private float startTime;                // Heure de départ du test
+    private float startTime;               // Heure de départ du test
     private bool testActive = false;       // Statut du test (actif ou non)
     private string typedWordsList = "";    // Liste des mots tapés
     private int correctLettersCount = 0;   // Nombre de lettres correctes
     private int totalLettersTyped = 0;     // Nombre total de lettres tapées
-
-    private string currentWord;            // Mot ou phrase actuel à taper
-    private string currentTestType;        // Type de test actuel (syllabe, mot, phrase)
+    private string currentWord;            // Mot actuel à taper
 
     void Start()
     {
         // Configure les boutons
         restartButton.onClick.AddListener(RestartTest);
-        syllabeButton.onClick.AddListener(() => StartTestFromMenu("syllabe"));
-        motButton.onClick.AddListener(() => StartTestFromMenu("mot"));
-        phraseButton.onClick.AddListener(() => StartTestFromMenu("phrase"));
+        motButton.onClick.AddListener(StartTest);
 
-        // Configure les boutons de durée
-        duration10sButton.onClick.AddListener(() => SelectDuration(10f));
-        duration20sButton.onClick.AddListener(() => SelectDuration(20f));
-        duration30sButton.onClick.AddListener(() => SelectDuration(30f));
+        mpmText.text = "";  // Efface le texte MPM par défaut
+        ShowMenu();         // Affiche le menu au démarrage
 
-        mpmText.text = "MPM : 0";
-        timerText.text = "Temps : Non défini";
+        LoadWords();        // Charge les mots depuis le fichier
 
-        ShowMenu(); // Affiche le menu au démarrage
-
-        LoadSyllables(); // Charge les syllabes depuis le fichier
-        LoadWords();     // Charge les mots depuis le fichier
-        LoadPhrases();   // Charge les phrases depuis le fichier
-    }
-
-    // Charge les syllabes depuis le fichier "syllabes.txt"
-    void LoadSyllables()
-    {
-        string filePath = Path.Combine(Application.streamingAssetsPath, "syllabes.txt");
-        if (File.Exists(filePath))
-        {
-            string[] lines = File.ReadAllLines(filePath);
-            foreach (string line in lines)
-            {
-                syllablesList.Add(line.Split(' '));
-            }
-        }
-        else
-        {
-            Debug.LogError("Fichier syllabes.txt introuvable !");
-        }
+        durationSlider.value = selectedDuration;
+        durationSlider.onValueChanged.AddListener(UpdateDuration);
+        UpdateDuration(selectedDuration); // Met à jour le texte au lancement
     }
 
     // Charge les mots depuis le fichier "mots.txt"
@@ -96,38 +63,10 @@ public class TypingSpeedTestTMP : MonoBehaviour
         {
             wordsList = new List<string>(File.ReadAllLines(filePath));
         }
-    }
-
-    // Charge les phrases depuis le fichier "phrases.txt"
-    void LoadPhrases()
-    {
-        string filePath = Path.Combine(Application.streamingAssetsPath, "phrases.txt");
-        if (File.Exists(filePath))
+        else
         {
-            phrasesList = new List<string>(File.ReadAllLines(filePath));
+            Debug.LogError("Fichier mots.txt introuvable !");
         }
-    }
-
-    // Sélectionne la durée du test
-    void SelectDuration(float duration)
-    {
-        selectedDuration = duration;
-        timerText.text = $"Temps : {selectedDuration:F1} s";
-    }
-
-    // Démarre le test depuis le menu avec le type de test choisi (syllabe, mot, phrase)
-    void StartTestFromMenu(string testType)
-    {
-        if (selectedDuration <= 0)
-        {
-            Debug.LogError("Durée non sélectionnée !");
-            timerText.text = "Erreur : Durée non sélectionnée";
-            return;
-        }
-
-        currentTestType = testType;
-        ShowTestUI();  // Affiche l'UI du test
-        StartTest(testType);  // Démarre le test
     }
 
     // Affiche l'UI du menu
@@ -146,27 +85,19 @@ public class TypingSpeedTestTMP : MonoBehaviour
         resultatUI.SetActive(false);
     }
 
-    // Affiche l'UI des résultats
-    void ShowResultUI()
+    // Démarre un test avec une limite de temps
+    void StartTest()
     {
-        menuUI.SetActive(false);
-        typingTestUI.SetActive(false);
-        resultatUI.SetActive(true);
-    }
-
-    // Démarre le test en fonction du type
-    void StartTest(string testType)
-    {
+        ShowTestUI();
         userInput.text = "";
-        mpmText.text = "MPM : 0";   // Désactive le MPM au début
-        timerText.text = $"Temps : {selectedDuration:F1} s";
+        mpmText.text = "MPM : 0";
         wordsTypedCorrectly = 0;
         typedWordsList = "";
         correctLettersCount = 0;
         totalLettersTyped = 0;
 
-        currentWord = GetNextWord(testType);  // Récupère le prochain mot
-        DisplayWordProgress();  // Affiche le mot à taper
+        currentWord = GetNextWord();
+        DisplayWordProgress();
 
         startTime = Time.time;
         testActive = true;
@@ -175,31 +106,38 @@ public class TypingSpeedTestTMP : MonoBehaviour
         userInput.ActivateInputField();
     }
 
-    // Met à jour l'état du test (temps, MPM, etc.)
+    // Récupère le prochain mot
+    string GetNextWord()
+    {
+        int randomWordIndex = Random.Range(0, wordsList.Count);
+        return wordsList[randomWordIndex];
+    }
+
+    // Met à jour l'état du test
     void Update()
     {
         if (testActive)
         {
             float elapsedTime = Time.time - startTime;
             float remainingTime = selectedDuration - elapsedTime;
-            timerText.text = $"Temps : {remainingTime:F1} s";
+
+            // Met à jour le temps restant
+            timeRemainingText.text = $"Temps restant : {Mathf.CeilToInt(remainingTime)} s";
 
             if (remainingTime <= 0)
             {
-                EndTest();  // Arrête le test lorsque le temps est écoulé
+                EndTest();
                 return;
             }
 
             string input = userInput.text;
             DisplayWordProgress(input);
 
-            // Lorsque l'utilisateur a tapé un mot complet
             if (input.Length >= currentWord.Length)
             {
-                typedWordsList += FormatTypedWord(input) + " ";
+                typedWordsList += input + " ";
                 totalLettersTyped += currentWord.Length;
 
-                // Calcul du nombre de lettres correctes
                 for (int i = 0; i < currentWord.Length; i++)
                 {
                     if (i < input.Length && input[i] == currentWord[i])
@@ -208,21 +146,18 @@ public class TypingSpeedTestTMP : MonoBehaviour
                     }
                 }
 
-                userInput.text = "";  // Réinitialise le champ de saisie
-                currentWord = GetNextWord(currentTestType);  // Récupère le prochain mot
-                DisplayWordProgress();  // Met à jour l'affichage du mot
+                wordsTypedCorrectly++;
+                userInput.text = "";
+                currentWord = GetNextWord();
+                DisplayWordProgress();
             }
 
-            // Si on est en mode "mot", calcule et affiche le MPM
-            if (currentTestType == "mot")
-            {
-                float wordsPerMinute = (wordsTypedCorrectly / elapsedTime) * 60;
-                mpmText.text = $"MPM : {wordsPerMinute:F2}";
-            }
+            float wordsPerMinute = (wordsTypedCorrectly / elapsedTime) * 60;
+            mpmText.text = $"MPM : {wordsPerMinute:F2}";
         }
     }
 
-    // Termine le test lorsque le temps est écoulé
+    // Termine le test
     void EndTest()
     {
         testActive = false;
@@ -230,89 +165,37 @@ public class TypingSpeedTestTMP : MonoBehaviour
 
         float elapsedTime = Time.time - startTime;
         float wordsPerMinute = (wordsTypedCorrectly / elapsedTime) * 60;
-        mpmText.text = $"MPM final : {wordsPerMinute:F2}";
-        timerText.text = $"Temps : 0.0 s";
 
         finalMpmText.text = $"MPM : {wordsPerMinute:F2} en {selectedDuration} s";
         typedWordsText.text = $"Mots tapés :\n{typedWordsList}";
 
-        // Calcul de la précision
-        if (totalLettersTyped == 0)
-        {
-            accuracyText.text = "Précision : 0%";
-        }
-        else
-        {
-            float accuracy = (correctLettersCount / (float)totalLettersTyped) * 100;
-            accuracyText.text = $"Précision : {accuracy:F2}%";
-        }
-
-        ShowResultUI();  // Affiche l'UI des résultats
+        ShowResultUI();
     }
 
-    // Redémarre le test après avoir afficher les résultats
+    // Affiche l'UI des résultats
+    void ShowResultUI()
+    {
+        menuUI.SetActive(false);
+        typingTestUI.SetActive(false);
+        resultatUI.SetActive(true);
+    }
+
+    // Redémarre le test
     void RestartTest()
     {
-        ShowMenu();  // Retourne au menu principal
+        ShowMenu();
     }
 
-    // Récupère le prochain mot en fonction du type de test
-    string GetNextWord(string testType)
-    {
-        switch (testType)
-        {
-            case "syllabe":
-                int randomSyllableIndex = Random.Range(0, syllablesList.Count);
-                return string.Join(" ", syllablesList[randomSyllableIndex]);
-            case "mot":
-                int randomWordIndex = Random.Range(0, wordsList.Count);
-                return wordsList[randomWordIndex];
-            case "phrase":
-                int randomPhraseIndex = Random.Range(0, phrasesList.Count);
-                return phrasesList[randomPhraseIndex];
-            default:
-                return "";
-        }
-    }
-
-    // Affiche l'état actuel du mot à taper (syllabe, mot, ou phrase)
+    // Met à jour le mot affiché
     void DisplayWordProgress(string input = "")
     {
-        phraseText.text = FormatWordToDisplay(input);
+        phraseText.text = currentWord;
     }
 
-    // Formatte le mot ou la phrase à afficher (par exemple, ajoute les caractères à l'endroit où l'utilisateur est)
-    string FormatWordToDisplay(string input = "")
+    // Met à jour la durée
+    void UpdateDuration(float value)
     {
-        string displayText = currentWord;
-
-        // Colorie les lettres tapées en vert et les lettres incorrectes en rouge
-        string result = "";
-        for (int i = 0; i < displayText.Length; i++)
-        {
-            if (i < input.Length)
-            {
-                if (input[i] == displayText[i])
-                {
-                    result += $"<color=green>{displayText[i]}</color>";
-                }
-                else
-                {
-                    result += $"<color=red>{displayText[i]}</color>";
-                }
-            }
-            else
-            {
-                result += displayText[i];
-            }
-        }
-
-        return result;
-    }
-
-    // Formate le mot pour l'affichage dans la liste des mots tapés
-    string FormatTypedWord(string word)
-    {
-        return word;
+        selectedDuration = Mathf.RoundToInt(value);
+        durationText.text = $"{selectedDuration} s";
     }
 }
