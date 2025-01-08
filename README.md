@@ -58,13 +58,6 @@ Pour contribuer au projet, voici quelques commandes utiles :
   git push origin [nom_de_la_branche]
   ```
 
-## Scripts Git pour simplifier le processus
-
-- **setup_git.sh** : Configure automatiquement le projet Git.
-- **push_git.sh** : Ajoute les fichiers modifiés, demande un message de commit et pousse les changements.
-- **pull_git.sh** : Récupère les modifications distantes et les fusionne.
-- **merge_git.sh** : Permet de fusionner une branche distante dans la branche locale.
-
 ## Contribution
 
 Les contributions sont les bienvenues ! Pour contribuer :
