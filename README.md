@@ -11,7 +11,7 @@
 ## Prérequis
 Avant de commencer, assurez-vous d'avoir les éléments suivants :
 - [Unity Hub](https://unity.com/download) installé.
-- La version recommandée de Unity (vérifiez dans la documentation ou le dépôt pour connaître la version exacte).
+- La version recommandée de Unity (2022.3.45f1).
 - [Git](https://git-scm.com/) installé pour la gestion du dépôt.
 
 ## Installation
