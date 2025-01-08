@@ -10,9 +10,9 @@
 
 ## Prérequis
 Avant de commencer, assurez-vous d'avoir les éléments suivants :
-- Un ordinateur avec un système d'exploitation Windows, macOS ou Linux.
+- [Unity Hub](https://unity.com/download) installé.
+- La version recommandée de Unity (vérifiez dans la documentation ou le dépôt pour connaître la version exacte).
 - [Git](https://git-scm.com/) installé pour la gestion du dépôt.
-- Python (version 3.8 ou ultérieure).
 
 ## Installation
 
@@ -20,23 +20,15 @@ Avant de commencer, assurez-vous d'avoir les éléments suivants :
    ```bash
    git clone https://github.com/marwane14/Write-it.git
    ```
-2. Naviguez dans le répertoire du projet :
-   ```bash
-   cd Write-it
-   ```
-3. Installez les dépendances requises :
-   ```bash
-   pip install -r requirements.txt
-   ```
+2. Ouvrez Unity Hub.
+3. Cliquez sur **Add** et sélectionnez le répertoire du projet cloné.
+4. Assurez-vous d'utiliser la version de Unity recommandée.
+5. Une fois le projet chargé dans Unity, vous pouvez commencer à l'explorer ou à le modifier.
 
-## Lancement du jeu
+## Lancement du projet
 
-1. Exécutez le fichier principal pour démarrer le jeu :
-   ```bash
-   python main.py
-   ```
-2. Suivez les instructions à l'écran pour choisir entre le mode éducatif et le mode dactylographique.
-
+1. Dans Unity, ouvrez la scène principale (par exemple, `Assets/Scenes/MainScene.unity`).
+2. Cliquez sur le bouton **Play** dans l'éditeur Unity pour tester le jeu.
 ## Gestion des branches Git
 
 Pour contribuer au projet, voici quelques commandes utiles :
