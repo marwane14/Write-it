@@ -82,20 +82,19 @@ Before starting, ensure you have the following:
 
 ## Installation
 
-1. Clone the GitHub repository:
+- Clone the GitHub repository:
    ```bash
    git clone https://github.com/marwane14/Write-it.git
-Add changes:
-bash
-Copier le code
+   ```
+- Add changes:
  ```bash
 git add .
 ```
-Commit with a message:
+- Commit with a message:
  ```bash
 git commit -m "Your message here"
 ```
-Push changes:
+- Push changes:
  ```bash
 git push origin [branch_name]
 ```
