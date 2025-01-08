@@ -87,17 +87,17 @@ Before starting, ensure you have the following:
    git clone https://github.com/marwane14/Write-it.git
    ```
 - Add changes:
- ```bash
-git add .
-```
+    ```bash
+   git add .
+   ```
 - Commit with a message:
- ```bash
-git commit -m "Your message here"
-```
+    ```bash
+   git commit -m "Your message here"
+   ```
 - Push changes:
- ```bash
-git push origin [branch_name]
-```
+    ```bash
+   git push origin [branch_name]
+   ```
 
 ## Contribution
 Contributions are welcome! To contribute:
