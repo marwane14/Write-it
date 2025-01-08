@@ -29,3 +29,37 @@ Ce projet, intitulé **Write-it**, est sous une licence personnelle et est prot�
 
 Pour toute demande relative à cette licence ou pour obtenir une licence commerciale, veuillez contacter :  
 **sup.write.it@gmail.com**
+
+---
+
+# Personal License
+
+This project, titled **Write-it**, is under a personal license and is protected by copyright laws.
+
+## Rights and Restrictions
+
+### **1. Personal Use**
+- You are authorized to use this software for personal, educational, or research purposes, in compliance with local and international laws.
+
+### **2. Modification**
+- You may modify the source code for your personal needs.
+- Any modification must not be used to bypass the restrictions outlined in this license.
+- Redistribution of the modified software is **strictly prohibited** without the explicit written consent of the author.
+
+### **3. Distribution**
+- You are **not authorized** to distribute or share the software, whether in its original or modified form, without the explicit written consent of the author.
+
+### **4. Commercial Use**
+- Any commercial use of this software is **strictly prohibited** without prior acquisition of a commercial license from the author.
+
+### **5. No Warranty**
+- This software is provided "**as is**," without any warranties, either express or implied.
+- The author **shall not be held liable** for any direct, indirect, special, incidental, or consequential damages resulting from the use or inability to use this software.
+
+### **6. Reserved Rights**
+- All rights not expressly granted in this license remain the exclusive property of the author.
+
+## Contact
+
+For any inquiries regarding this license or to obtain a commercial license, please contact:  
+**sup.write.it@gmail.com**
