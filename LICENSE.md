@@ -5,11 +5,12 @@ Ce projet, intitulé **Write-it**, est sous une licence personnelle et est prot�
 ## Droits et restrictions
 
 ### **1. Utilisation personnelle**
-- Vous êtes autorisé à utiliser ce logiciel à des fins personnelles, éducatives ou de recherche.
+- Vous êtes autorisé à utiliser ce logiciel à des fins personnelles, éducatives ou de recherche, conformément aux lois locales et internationales.
 
 ### **2. Modification**
 - Vous pouvez modifier le code source pour vos besoins personnels.
-- Toute modification ou distribution du logiciel modifié doit respecter les restrictions de cette licence.
+- Toute modification ne doit pas être utilisée pour contourner les restrictions établies dans cette licence.
+- Toute distribution du logiciel modifié est **strictement interdite** sans l'autorisation écrite expresse de l'auteur.
 
 ### **3. Distribution**
 - Vous **n'êtes pas autorisé** à distribuer ou partager le logiciel, que ce soit sous sa forme originale ou modifiée, sans l'autorisation écrite expresse de l'auteur.
@@ -18,8 +19,11 @@ Ce projet, intitulé **Write-it**, est sous une licence personnelle et est prot�
 - Toute utilisation commerciale de ce logiciel est **strictement interdite** sans l'obtention préalable d'une licence commerciale de l'auteur.
 
 ### **5. Absence de garantie**
-- Ce logiciel est fourni "**tel quel**", sans garantie d'aucune sorte.
-- L'auteur **ne peut être tenu responsable** des éventuels dommages résultant de l'utilisation du logiciel.
+- Ce logiciel est fourni "**tel quel**", sans garantie d'aucune sorte, explicite ou implicite.
+- L'auteur **ne peut être tenu responsable** des éventuels dommages directs, indirects, spéciaux, accidentels ou consécutifs résultant de l'utilisation ou de l'incapacité à utiliser ce logiciel.
+
+### **6. Droits réservés**
+- Tous les droits non expressément accordés dans cette licence restent la propriété exclusive de l'auteur.
 
 ## Contact
 
