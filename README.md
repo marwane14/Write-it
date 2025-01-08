@@ -72,7 +72,6 @@ Les contributions sont les bienvenues ! Pour contribuer :
 2. Créez une branche pour vos modifications.
 3. Soumettez une pull request avec une description claire de vos changements.
 
-## License
+## Licence
 
-Ce projet est sous licence [Nom de la licence, ex. MIT, GPL]. Voir le fichier LICENSE pour plus d'informations.
-
+Ce projet est sous licence personnelle. Consultez le fichier [LICENSE](./LICENSE) pour plus d'informations.
