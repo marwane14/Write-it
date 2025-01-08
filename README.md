@@ -60,3 +60,52 @@ Les contributions sont les bienvenues ! Pour contribuer :
 ## Licence
 
 Ce projet est sous licence personnelle. Consultez le fichier [LICENSE](./LICENSE.md) pour plus d'informations.
+
+# Write-it
+
+**Write-it** is an educational video game designed to help children and adults with dysgraphia improve their writing skills. Additionally, it can be played in a typing mode to develop keyboard speed and accuracy.
+
+## Main Features
+
+- **Educational Mode**: Offers interactive exercises to enhance fine motor skills and coordination.
+- **Typing Mode**: Allows users to practice typing quickly and accurately.
+- **For All Ages**: Suitable for both children and adults.
+- **Personalized Progression**: Tracks progress and adjusts levels based on performance.
+
+## Prerequisites
+
+Before starting, ensure you have the following:
+
+- [Unity Hub](https://unity.com/download) installed.
+- The recommended Unity version (2022.3.45f1).
+- [Git](https://git-scm.com/) installed for repository management.
+
+## Installation
+
+1. Clone the GitHub repository:
+   ```bash
+   git clone https://github.com/marwane14/Write-it.git
+Add changes:
+bash
+Copier le code
+ ```bash
+git add .
+```
+Commit with a message:
+ ```bash
+git commit -m "Your message here"
+```
+Push changes:
+ ```bash
+git push origin [branch_name]
+```
+
+## Contribution
+Contributions are welcome! To contribute:
+
+1. Fork the repository.
+2. Create a branch for your changes.
+3. Submit a pull request with a clear description of your changes.
+
+## License
+This project is under a personal license. See the LICENSE file for more details.
