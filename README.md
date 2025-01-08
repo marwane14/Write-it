@@ -74,4 +74,4 @@ Les contributions sont les bienvenues ! Pour contribuer :
 
 ## Licence
 
-Ce projet est sous licence personnelle. Consultez le fichier [LICENSE](./LICENSE) pour plus d'informations.
+Ce projet est sous licence personnelle. Consultez le fichier [LICENSE](./LICENSE.md) pour plus d'informations.
