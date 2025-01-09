@@ -4592,6 +4592,14 @@ PrefabInstance:
       propertyPath: m_SortingOrder
       value: 4
       objectReference: {fileID: 0}
+    - target: {fileID: 3504104970411469493, guid: 42e7481e5cd0da148ae3e2374312f381, type: 3}
+      propertyPath: m_Size.y
+      value: 1.4605905
+      objectReference: {fileID: 0}
+    - target: {fileID: 3504104970411469493, guid: 42e7481e5cd0da148ae3e2374312f381, type: 3}
+      propertyPath: m_Offset.y
+      value: -0.0097485185
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
