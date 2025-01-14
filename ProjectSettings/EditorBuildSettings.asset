@@ -6,6 +6,15 @@ EditorBuildSettings:
   serializedVersion: 2
   m_Scenes:
   - enabled: 1
-    path: Assets/Scenes/TestMPM.unity
+    path: Assets/Scenes/Maps/spawn/Chambre.unity
+    guid: 50b6b0640493a2244aced9cb0f9a4146
+  - enabled: 1
+    path: Assets/Scenes/Maps/spawn/Salon.unity
+    guid: 924c890dbb154354cafa8e42831ec710
+  - enabled: 1
+    path: Assets/Scenes/Maps/Map 1.unity
+    guid: 7e4be828a15572541b89c9d03e226dae
+  - enabled: 1
+    path: Assets/Scenes/Mode Entrainement/TestMPM.unity
     guid: d102f9bb146e57b4a9a51631f747501c
   m_configObjects: {}
