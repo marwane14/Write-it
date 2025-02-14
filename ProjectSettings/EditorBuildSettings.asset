@@ -6,6 +6,9 @@ EditorBuildSettings:
   serializedVersion: 2
   m_Scenes:
   - enabled: 1
+    path: Assets/Scenes/UI/TitleScreen.unity
+    guid: 25e59b99a785c144cb3aa499481871a4
+  - enabled: 1
     path: Assets/Scenes/Maps/spawn/Chambre.unity
     guid: 50b6b0640493a2244aced9cb0f9a4146
   - enabled: 1
@@ -14,6 +17,9 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/Maps/Map 1.unity
     guid: 7e4be828a15572541b89c9d03e226dae
+  - enabled: 1
+    path: Assets/Scenes/Maps/Minijeu.unity
+    guid: f49f454f67949784c9295bff95b85287
   - enabled: 1
     path: Assets/Scenes/Mode Entrainement/TestMPM.unity
     guid: d102f9bb146e57b4a9a51631f747501c
