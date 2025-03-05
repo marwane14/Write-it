@@ -1,0 +1,410 @@
+Le chat dort sur le canapé.
+J’aime lire des livres.
+Il fait beau aujourd’hui.
+Elle joue dans le jardin.
+Nous allons à l’école.
+Le chien aboie fort.
+Il pleut beaucoup en avril.
+J'ai perdu mon stylo bleu.
+La mer est calme ce matin.
+Elle chante très bien.
+Nous avons un nouveau voisin.
+Je veux apprendre à nager.
+Ils jouent au football.
+Il y a une étoile dans le ciel.
+La route est longue.
+Elle écrit une lettre.
+Nous visitons le musée.
+Le bébé pleure souvent.
+Il aime les bonbons.
+Mon ami est gentil.
+Elle a des cheveux longs.
+J’adore les films comiques.
+La neige est blanche.
+J’ai faim, je veux manger.
+Le soleil brille fort.
+Elle porte une belle robe.
+Nous regardons les étoiles.
+Ils prennent le bus tous les jours.
+La nuit est calme et paisible.
+Mon frère joue de la guitare.
+La ville est pleine de monde.
+J’aime dessiner des paysages.
+Le jardin a de belles fleurs.
+Elle a un sourire magnifique.
+Il marche vite le matin.
+La plage est bondée en été.
+J’ai soif, je veux de l’eau.
+La voiture est en panne.
+Le vent souffle fort.
+Ils dansent sous la pluie.
+J’ai un nouvel ordinateur.
+Elle lit un roman policier.
+La forêt est silencieuse.
+Il prend un café chaud.
+Le train part à l’heure.
+Mon père travaille beaucoup.
+J’aime les dessins animés.
+Le ciel est bleu aujourd’hui.
+Elle apprend le piano.
+Ils font du vélo au parc.
+Le professeur est très sympa.
+J’adore les vacances d’été.
+Elle prend un bain chaud.
+Nous décorons la maison.
+Il prépare un bon repas.
+La lune est belle ce soir.
+Le pont traverse la rivière.
+Mon cousin aime voyager.
+Je cherche mes clés.
+Le lac est très profond.
+Elle veut adopter un chat.
+Le chemin est étroit.
+Nous faisons une promenade.
+Il regarde la télévision.
+La bibliothèque est silencieuse.
+Elle boit un jus d’orange.
+J’apprends à cuisiner.
+Le mur est peint en bleu.
+Ils visitent la tour Eiffel.
+La table est en bois.
+Nous mangeons du chocolat.
+Le bus est en retard.
+Elle écoute de la musique.
+Il achète une nouvelle voiture.
+Mon frère aime les jeux vidéo.
+J’aime les chansons douces.
+Elle porte des lunettes.
+La rue est animée la nuit.
+Le livre est très intéressant.
+Nous avons une réunion demain.
+La montagne est haute.
+Elle prend des photos.
+J’écris dans mon journal.
+Ils jouent au tennis.
+Le marché est ouvert le samedi.
+Elle collectionne des timbres.
+Le tapis est doux.
+Nous préparons un gâteau.
+Il dessine un portrait.
+La rivière est paisible.
+Mon oncle est pêcheur.
+J’adore les animaux.
+Elle apprend à conduire.
+La maison est bien décorée.
+Il regarde un film d’action.
+Le poisson nage vite.
+Ils parlent de leurs projets.
+La chambre est propre.
+Nous passons un bon moment.
+Elle peint des paysages.
+Le café est très fort.
+La pomme est rouge.
+Ils jouent aux cartes.
+Elle se promène dans le parc.
+Mon cousin est gentil.
+Nous partons en vacances.
+Le vent est froid aujourd’hui.
+Il cuisine pour sa famille.
+J’adore les fraises.
+Elle écrit une nouvelle histoire.
+Le feu est éteint.
+Le train est à l’heure.
+Nous visitons un château.
+La pluie tombe doucement.
+Ils prennent le métro.
+Elle lit un magazine.
+Le cinéma est fermé.
+Je porte un pull chaud.
+Ils regardent le coucher de soleil.
+Nous mangeons des pâtes.
+Il travaille tard ce soir.
+La mer est agitée.
+Elle aime les fleurs.
+Le téléphone sonne.
+Ils font du ski en hiver.
+Le lit est confortable.
+Nous partons pour la montagne.
+Elle parle avec son voisin.
+Il va au marché chaque semaine.
+J’adore les puzzles.
+Elle prépare des crêpes.
+La fenêtre est ouverte.
+Il a un chien blanc.
+Le parc est immense.
+Elle porte un manteau rouge.
+J’aime les chansons d’amour.
+Nous plantons des arbres.
+Le gâteau est délicieux.
+Elle chante sous la douche.
+Ils regardent des photos.
+Le café est très chaud.
+Elle lit un poème.
+Il répare sa voiture.
+Nous faisons un pique-nique.
+Elle parle anglais.
+J’aime les contes de fées.
+Il écoute un podcast.
+Nous apprenons ensemble.
+Elle travaille dans un hôpital.
+Ils voyagent souvent.
+Où est-ce que tu vas ?
+Je me demande si elle viendra...
+Attention ! Le chat est sur le toit !
+Il pleut, mais il fait chaud.
+Le soleil se lève : c'est magnifique !
+Que veux-tu dire par là ?
+Enfin, elle est arrivée !
+J'ai perdu mes clés, encore une fois !
+Il est grand, fort, et intelligent.
+Oh non ! Pas encore cette chanson !
+L'heure est venue : on doit partir.
+As-tu bien dormi ?
+Elle hésite... mais elle accepte.
+Quel beau paysage !
+Le temps passe si vite...
+Un, deux, trois... Go !
+Est-ce que tu as faim ?
+Oui, bien sûr ; je suis prêt !
+La nuit est calme, douce, et paisible.
+Pourquoi es-tu en retard ?
+J’adore ce film, et toi ?
+Regarde, il y a un arc-en-ciel !
+Nous avons tout essayé... rien ne marche.
+Ah, c'est toi !
+Elle est là, enfin !
+Peut-être, mais je ne suis pas sûr.
+Que fais-tu là, à cette heure-ci ?
+Voyons voir... où ai-je mis mon téléphone ?
+Est-ce que tu comprends ce que je dis ?
+Oh ! Je n’y crois pas !
+Silence, s'il vous plaît !
+Alors, que décides-tu ?
+Il est grand, mais très timide.
+Comment est-ce possible ?
+Ne t’inquiète pas, tout ira bien.
+Bien sûr, pourquoi pas ?
+Ce n'est pas possible... ou peut-être que si ?
+Allons, dépêche-toi !
+Le vent souffle fort ce soir...
+Pourquoi es-tu triste ?
+Allez, courage !
+Bon, par où commencer ?
+Ah, ça fait du bien !
+J'ai tout oublié ; ça n'a pas d'importance.
+Écoute-moi bien : il faut faire attention.
+Pas maintenant, je suis occupé.
+J’arrive tout de suite !
+Regarde-moi dans les yeux.
+Qu’est-ce qui se passe ?
+Il est tard... je devrais rentrer.
+Tu m’as manqué, tu sais ?
+À quoi penses-tu ?
+Eh bien, ce n'est pas grave !
+J’ai fini, et toi ?
+Attention : ne touche pas à ça !
+Bonsoir, comment ça va ?
+Elle hésite... mais elle sourit.
+Pourquoi moi ?
+Oui, absolument !
+Allez, on y va ?
+Il est si drôle, vraiment !
+Eh bien, quelle surprise !
+Pourquoi veux-tu savoir ça ?
+Respire, tout va bien.
+Encore cinq minutes, s'il te plaît !
+Il est gentil, poli, et généreux.
+Tu veux jouer avec nous ?
+Pas encore, attends un peu.
+Que ferons-nous demain ?
+Allons-y, d'accord ?
+Oh là là, quelle journée !
+Ça va ? Tu as l'air fatigué...
+Eh oui, c'est comme ça.
+Elle a dit non, pourtant.
+Sérieusement, tu plaisantes ?
+Non, non, non... ce n'est pas vrai !
+S’il vous plaît, écoutez-moi.
+Qu’en penses-tu ?
+Alors là, je suis surpris !
+Pourquoi m’as-tu menti ?
+Oui, tu as raison.
+Oh, je suis tellement content !
+Juste un instant, s'il te plaît.
+Tu as fini, vraiment ?
+Bravo, c'est excellent !
+Tout est prêt ; nous pouvons commencer.
+Oh non, pas lui encore !
+Elle ne sait pas quoi dire.
+Il a peur, mais il avance.
+Tant mieux, c'est parfait !
+Tu m'as vraiment fait peur !
+Elle rit, puis elle pleure.
+Ah bon ? C'est une blague ?
+Et maintenant, que faire ?
+Enfin, c'est terminé !
+Ah, c'est joli, ça !
+Mais pourquoi faire ça ?
+Sois prudent, d'accord ?
+Est-ce que tu me crois ?
+Dis-moi, tu es sûr ?
+Ça fait longtemps, non ?
+Oui, mais pourquoi ?
+Regarde ça ; c'est incroyable !
+Quelle heure est-il ?
+Ce n’est pas facile, n'est-ce pas ?
+Pourquoi ne pas essayer ?
+Bien joué, vraiment !
+Mais, que veux-tu de plus ?
+Est-ce déjà fini ?
+Oh, quel dommage !
+Que fais-tu ici ?
+Non, je ne crois pas...
+C’est magnifique, tu ne trouves pas ?
+Là-bas, regarde !
+Quoi de neuf ?
+C'est possible, tu sais ?
+Va-t'en, s'il te plaît.
+On peut y arriver ; j’en suis sûr.
+La nuit tombe déjà ?
+Oh, je ne savais pas !
+Mais pourquoi ? Explique-moi !
+Que me conseilles-tu ?
+C'est tout ? Vraiment ?
+Est-ce difficile pour toi ?
+Oui, je pense que c'est bien.
+Il hésite... puis il parle.
+Ah ! Enfin, je comprends.
+Pas maintenant ; j’ai besoin de repos.
+Où es-tu allé ?
+Écoute, c’est important.
+Attention, ça glisse !
+Tu veux encore du café ?
+Pourquoi ne pas le faire ensemble ?
+J'ai besoin d'aide, et vite !
+Allez, courage ! On y est presque.
+Arrête, s'il te plaît.
+Mais dis-moi, tu viens ou pas ?
+Ne sois pas si timide !
+Oh, c'est trop mignon !
+Pourquoi tu ris ?
+Et alors, tu viens ?
+C’est étrange, non ?
+Oui, mais pas trop vite !
+Enfin, tu es là !
+Tu veux un morceau de gâteau ?
+Comment ça va aujourd'hui ?
+Non, je n’ai pas encore fini.
+Et maintenant, que va-t-il se passer ?
+Oui, je suis d'accord !
+La vie est belle, n'est-ce pas ?
+La tempête approchait dangereusement, et les vagues gigantesques s’écrasaient contre les rochers avec une force inouïe, tandis que le vent hurlait dans les arbres.
+Malgré les avertissements du guide, ils continuèrent leur ascension sans se soucier des risques de chute ou d’épuisement extrême.
+Dans une clairière reculée, à l’abri des regards indiscrets, le vieux manoir semblait figé dans le temps, abandonné mais étrangement envoûtant.
+À chaque mouvement, les branches craquaient sous ses pieds, et le bruissement des feuilles ajoutait un mystère inquiétant à la forêt sombre.
+Au détour du chemin, ils aperçurent un lac scintillant sous la lune, entouré de montagnes majestueuses qui semblaient protéger ce lieu secret.
+Les enfants jouaient gaiement, leurs rires résonnant dans le parc, pendant que les adultes les surveillaient distraitement, absorbés dans leurs propres pensées.
+C’était un spectacle grandiose, un ciel étoilé s’étalait à perte de vue, tandis que les lucioles dansaient doucement au-dessus du champ.
+Alors qu’ils approchaient de la vieille cabane en bois, une odeur étrange se répandit dans l’air, ajoutant une touche de mystère à cette aventure nocturne.
+Les couleurs chatoyantes du coucher de soleil embrasaient le ciel, créant un contraste saisissant avec l’obscurité croissante de la forêt.
+Bien qu’elle fût fatiguée, elle poursuivit sa route avec détermination, les yeux fixés sur la lueur lointaine qui perçait l’obscurité.
+Ils traversèrent le pont suspendu, chaque pas faisant grincer les planches, tandis que le précipice s’étendait sous eux, imposant et vertigineux.
+Le silence régnait dans la salle, brisé seulement par le tic-tac de l’horloge, accentuant la tension palpable entre les personnages.
+Malgré la pluie qui battait violemment contre les fenêtres, ils restaient tous deux assis, plongés dans une conversation passionnée.
+Les gouttes d’eau coulaient lentement le long des vitres, distordant le paysage extérieur et créant des formes étranges et éphémères.
+Tandis qu’ils observaient les nuages noirs envahir le ciel, un sentiment d’angoisse commença à s’immiscer dans leurs pensées.
+Ils marchaient côte à côte, sans dire un mot, laissant la fraîcheur de la nuit les envelopper dans un silence apaisant.
+L’arôme du café fraîchement moulu embaumait la pièce, invitant chacun à un moment de détente et de convivialité.
+La lumière du jour s’estompait doucement, et l’ombre des arbres dansait sur les murs, créant une atmosphère douce et envoûtante.
+Les livres étaient éparpillés partout dans la pièce, témoignage de l’esprit curieux et insatiable de leur propriétaire.
+Ils se tenaient la main, scrutant l’horizon d’un air pensif, chacun perdu dans ses pensées, mais unis par un lien invisible.
+L’eau s’écoulait avec une lenteur presque hypnotique, dessinant des motifs délicats sur la surface du lac paisible.
+Bien que la tempête ait cessé, le vent soufflait toujours avec force, balayant les feuilles mortes sur son passage.
+La douceur de sa voix apaisait les cœurs, et chacun l’écoutait avec une attention respectueuse, comme envoûté par sa sagesse.
+Dans l’obscurité grandissante, les étoiles commençaient à apparaître, illuminant le ciel nocturne d’un éclat mystérieux.
+Le parfum des roses embaumait le jardin, et elle s’assit sur le banc, savourant ce moment de tranquillité éphémère.
+Chaque matin, il partait marcher le long de la rivière, appréciant la sérénité de l’eau qui coulait lentement.
+Bien que l’heure fût tardive, elle ne parvenait pas à trouver le sommeil, ses pensées tourbillonnant sans relâche dans son esprit.
+Les éclats de voix se mêlaient aux rires, créant une ambiance joyeuse et animée dans cette soirée entre amis.
+La lumière dorée du crépuscule illuminait les montagnes, ajoutant une touche de magie au paysage déjà grandiose.
+Ils avançaient avec précaution, chaque bruit amplifié par le silence oppressant qui régnait dans la grotte.
+Le chat observait attentivement l’oiseau sur le rebord de la fenêtre, prêt à bondir au moindre mouvement.
+Un doux murmure s’éleva parmi les feuilles, porté par le vent, comme un écho des temps passés.
+La neige tombait doucement, recouvrant le sol d’un manteau blanc, rendant le paysage paisible et irréel.
+L’horloge marquait minuit, et le silence de la nuit n’était brisé que par le léger souffle du vent.
+Elle relisait la lettre, absorbée dans les mots, ressentant à nouveau les émotions intenses de l’auteur.
+Tandis qu’ils traversaient la clairière, un sentiment de quiétude les envahissait, comme si le temps s’était arrêté.
+Le bruit des vagues se mêlait aux cris des mouettes, créant une mélodie naturelle et apaisante.
+Malgré la foule autour d’eux, ils se sentaient seuls au monde, absorbés l’un dans l’autre.
+Un parfum de lavande flottait dans l’air, rappelant les souvenirs d’un été lointain et insouciant.
+Le chant des oiseaux emplissait l’air frais du matin, annonçant le début d’une belle journée.
+Chaque pierre du chemin semblait raconter une histoire, témoignant des siècles passés et des voyageurs qui l’avaient foulée.
+Un épais brouillard enveloppait la vallée, rendant chaque pas incertain et mystérieux.
+Les éclairs illuminaient le ciel sombre, révélant brièvement le paysage inquiétant qui les entourait.
+Assis au coin du feu, ils partageaient des histoires anciennes, ravivant les souvenirs d’un passé oublié.
+La lumière de la lune se reflétait sur l’eau, créant un chemin scintillant à la surface du lac.
+Bien que la nuit soit avancée, l’énergie de la ville restait palpable, chaque rue étant éclairée de lumières vives.
+Ils observaient les étoiles, cherchant des constellations familières dans l’immensité du ciel nocturne.
+Le parfum des pins embaumait l’air, rappelant la fraîcheur de la montagne.
+Sous la pluie battante, ils avancèrent sans relâche, leur détermination plus forte que la tempête.
+Les souvenirs défilaient dans son esprit, chaque image plus vive et poignante que la précédente.
+La douceur de la brise, combinée aux reflets dorés du soleil couchant, donnait au paysage une aura magique et presque irréelle.
+Ils parcouraient la bibliothèque immense, leurs doigts effleurant les reliures anciennes, plongés dans un respect silencieux pour le savoir contenu dans ces ouvrages.
+Une ambiance de fête régnait dans la maison, les rires et les éclats de voix s’élevant joyeusement malgré l’heure tardive.
+Tandis qu’elle écrivait, les mots prenaient vie sous sa plume, comme si chaque phrase capturait une partie de son âme.
+Au sommet de la colline, ils contemplaient le panorama, laissant leur esprit se perdre dans l’immensité de la vallée.
+Le vent s’engouffrait dans les branches, produisant un murmure continu qui semblait provenir des profondeurs de la forêt.
+Les rues étaient désertes, et le silence pesant de la nuit ne faisait qu’amplifier leurs pas précipités.
+Elle se souvenait de chaque détail de cette journée, des couleurs éclatantes aux parfums subtils, comme si elle y était encore.
+Les montagnes se dessinaient à l’horizon, imposantes et majestueuses, témoins silencieux du passage des siècles.
+Au milieu des vagues déchaînées, le phare restait immobile, sa lumière guidant les marins perdus dans la tempête.
+Le ciel était parsemé de nuages roses et orange, comme une peinture délicate et éphémère avant que la nuit ne tombe.
+Ils avaient marché toute la journée sans s’arrêter, mais en voyant le sommet se rapprocher, ils trouvèrent une nouvelle énergie.
+Elle relisait ses notes, cherchant à comprendre le sens caché dans chaque ligne et chaque formule.
+Au bord du précipice, ils s’arrêtèrent, impressionnés par la beauté sauvage du paysage qui s’étendait à perte de vue.
+La pluie fine tambourinait contre les fenêtres, créant une mélodie douce et apaisante.
+Les souvenirs de son enfance défilaient dans son esprit, un mélange de nostalgie et de tendresse.
+Il tenait entre ses mains un vieil album photo, chaque page révélant un chapitre de sa vie.
+La ville s’éveillait doucement, les premières lumières apparaissant dans les rues encore désertes.
+Au sommet du phare, elle regardait l’horizon, hypnotisée par le va-et-vient des vagues en contrebas.
+Ils traversèrent le vieux pont en bois, chaque pas produisant un craquement inquiétant.
+La mélodie du piano résonnait dans la maison, emplissant chaque pièce d’une émotion douce et intense.
+Le bruit des feuilles sous leurs pas était le seul son dans cette forêt dense et mystérieuse.
+Tandis qu’ils longeaient la falaise, un sentiment de vertige s’empara d’eux, renforcé par la beauté sauvage du paysage.
+Les rayons du soleil pénétraient à travers les branches, illuminant les gouttes de rosée suspendues aux feuilles.
+Ils se tenaient main dans la main, laissant le silence exprimer ce que les mots ne pouvaient dire.
+La rivière serpentait à travers la vallée, reflet d’argent au milieu des montagnes verdoyantes.
+Elle ouvrit la fenêtre, laissant entrer l’air frais du matin, porteur d’une promesse de renouveau.
+Les murs de la maison semblaient garder les secrets des générations passées, témoins silencieux de vies disparues.
+Le marché était animé, les gens discutant, riant, et marchandant sous le soleil éclatant.
+Ils marchaient dans le sable, les vagues venant effacer leurs traces presque aussitôt.
+La forêt s’épaississait à mesure qu’ils s’enfonçaient dans les sentiers, rendant chaque pas plus difficile.
+Dans le jardin, les fleurs éclosaient dans une explosion de couleurs vives, attirant des papillons aux ailes chatoyantes.
+Elle contempla le ciel étoilé, son esprit s’évadant vers des rêves et des questions sans réponse.
+Les enfants couraient autour du lac, leurs cris joyeux se mêlant au bruit du vent.
+Le sentier escarpé s’étirait devant eux, et malgré la fatigue, ils continuaient, attirés par le sommet.
+Une brume légère enveloppait la campagne, transformant les champs en un paysage onirique et silencieux.
+Ils se reposaient au pied d’un arbre centenaire, savourant la quiétude de l’instant.
+Chaque détail de la scène était gravé dans sa mémoire, des odeurs aux couleurs en passant par les moindres sons.
+La maison était vieille et délabrée, mais elle dégageait un charme mystérieux qui attirait les curieux.
+Au loin, on apercevait le village endormi, enveloppé dans la pénombre de la nuit.
+Les vagues frappaient le rivage avec force, laissant derrière elles une traînée d’écume blanche.
+Le crépitement du feu était le seul bruit dans la pièce, apportant une chaleur réconfortante.
+La neige recouvrait tout, transformant le paysage en un tableau immaculé et silencieux.
+Les étoiles brillaient de mille feux dans le ciel, illuminant la nuit d’un éclat féerique.
+La mélodie de la flûte s’élevait, douce et envoûtante, semblant sortir des profondeurs de la forêt.
+Le sentier disparaissait sous les feuilles mortes, rendant chaque pas incertain.
+Ils s’arrêtèrent pour contempler la cascade, émerveillés par la puissance de l’eau qui se précipitait dans le vide.
+Le bruissement des ailes des oiseaux résonnait dans les arbres, ajoutant une touche de magie à l’aube naissante.
+Elle referma le livre, le cœur rempli d’émotions, comme si elle venait de vivre mille vies en une seule lecture.
+Ils écoutaient le son de la mer, se laissant bercer par le mouvement des vagues.
+Le vent soufflait fort, secouant les branches des arbres et transportant avec lui des odeurs de terre humide.
+Assis sur le muret, ils observaient le coucher de soleil, éblouis par la beauté du spectacle.
+Les ruelles étroites étaient désertes, seulement éclairées par la lueur tremblante des réverbères.
+La porte de la vieille maison grinça en s’ouvrant, révélant un intérieur sombre et poussiéreux.
+Dans le silence de la nuit, chaque son semblait amplifié, créant une atmosphère étrange et inquiétante.
+La brume montait lentement du sol, transformant le champ en un océan de mystère.
+L’eau du lac était si calme qu’elle reflétait parfaitement les étoiles du ciel.
+La senteur des fleurs sauvages embaumait l’air, ajoutant une touche de magie à ce coin de paradis.
+Les feuilles mortes formaient un tapis doré sous leurs pieds, rendant le paysage encore plus enchanteur.
+Le vieil homme racontait des histoires fascinantes, captivant son auditoire par ses souvenirs d’un autre temps.
