@@ -17,7 +17,7 @@ This project, titled **Write-it**, is under a personal license and is protected 
 
 ### 3. Distribution
 - Vous **n’êtes pas autorisé** à distribuer ou partager le logiciel, que ce soit sous sa forme originale ou modifiée, **en dehors du dépôt GitHub officiel du projet**.
-- La seule version autorisée à être diffusée est celle **hébergée sur le GitHub officiel** : [github.com/write-it-project](#) *(à remplacer par le lien réel)*.
+- La seule version autorisée à être diffusée est celle **hébergée sur le GitHub officiel** : [https://github.com/marwane14/Write-it.git](#).
 - Toute autre distribution sans autorisation écrite est **strictement interdite**.
 
 ### 4. Usage commercial
@@ -44,7 +44,7 @@ This project, titled **Write-it**, is under a personal license and is protected 
 
 ### 3. Distribution
 - You are **not allowed** to distribute or share the software, in original or modified form, **outside the project's official GitHub repository**.
-- Only versions hosted on the **official GitHub repository** are allowed for public access: [github.com/write-it-project](#) *(replace with your actual GitHub link)*.
+- Only versions hosted on the **official GitHub repository** are allowed for public access: [https://github.com/marwane14/Write-it.git](#).
 - Any other distribution without written permission is **strictly prohibited**.
 
 ### 4. Commercial Use
