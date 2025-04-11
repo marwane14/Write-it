@@ -7,3 +7,7 @@
 - **Mode dactylographie** : Permet aux utilisateurs de s'entraîner à taper rapidement et avec précision.
 - **Adapté à tous les âges** : Convient aussi bien aux enfants qu'aux adultes.
 - **Progression personnalisée** : Suivi des progrès et ajustement des niveaux en fonction des performances.
+
+## Licence
+
+Ce projet est sous licence personnelle. Consultez le fichier [LICENSE](./LICENSE.md) pour plus d'informations.
